@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  background-color: black;
+}
+
+#OUTER {
+  height: 300px;
+  width: 300px;
+  border: 7px black solid;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 5px 5px 10px 0px #66545e;
+  background-color: black;
+}
+
+#INNER {
+  border: 2px white solid;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  border-radius: 10px;
+  background-color: bisque;
+  box-shadow: 5px 5px 10px 0px #66545e;
+}
+
+#user {
+  position: relative;
+  top: 130px;
+  border: 2px yellow groove;
+  border-radius: 50px;
+}
+
+#pass {
+  position: relative;
+  top: 70px;
+  border: 2px yellow groove;
+  border-radius: 50px;
+  right: -35px;
+}
+
+button {
+  background-color: black;
+  border-radius: 50px;
+  position: relative;
+  top: 150px;
+  left: -80px;
+  color: white;
+}
+
+#OUTER:hover {
+  background-color: #ddc6c6;
+}
+
+p {
+  position: relative;
+  top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#INNER:hover {
+  animation-name: heythert;
+  animation-duration: .3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heythert {
+  from { background-color: bisque; }
+  to { background-color: yellow; }
+  from { border-color: white; }
+  to { border-color: black; }
+}
+
+#BLOCK {
+  background-color: black;
+  position: relative;
+  top: -700px;
+  z-index: 1;
+}
+
+span {
+  height: 100px;
+  width: 100px;
+  font-size: 10px;
+  border: 10px black solid;
+  background-color: neon;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px #66545e;
+}
+
+span:hover {
+  animation-name: myanimation;
+  animation-duration: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes myanimation {
+  from { border: 5px yellow groove; }
+  from { background-color: rebeccapurple; }
+  to { background-color: red; }
+}
+
+    </style>
+</head>
+<body>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <div id="OUTER">
+        <div id="INNER"><p>WELCOME</p> </div>
+        <input type="text" alt="PUsername" id="user">
+        <input type="text" alt="Username" id="pass">  
+        <button>SUBMIT</button>     
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <div id="BLOCK">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+</body>
+</html>
